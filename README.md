@@ -46,7 +46,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 ## Role-based Access
 
 - **Platform Owner:** Can withdraw platform fees.
-- **Seller:** Can list properties (with a fee).
+- **Seller:** Can list properties by uploadind property detail (with a platform fee).
 - **Buyer:** Can purchase properties.
 
 ## Screenshots

@@ -18,6 +18,7 @@ This is a decentralized real estate application (DApp) built with nextjs and Eth
 ## Getting Started
 ## Backend Installation
 Clone,the Bakcend Repository
+
 ```bash
 git clone https://github.com/umashankar-tech/realestate-dapp-backend
 ```
@@ -42,10 +43,12 @@ $ anvil
 ### Deploy
 
 ```shell
-$ forg
+$ forge script script/DeployRealEstatePlatform.s.sol.s.sol:DeployRealEstatePlatform.s.sol --rpc-url <your_rpc_url> --private-key <your_private_key>
+```
 
 First, run the frontend development server:
 Clone Repo
+
 ```shell
 git clone https://github.com/umashankar-tech/realestate-dapp-frontend
 ```
@@ -54,7 +57,6 @@ git clone https://github.com/umashankar-tech/realestate-dapp-frontend
 - make sure to ***update contract addresses and  abi *** path to update
 ```
 src > constants
-
 ```
 ### Install Dependencies
 ```bash
@@ -64,7 +66,6 @@ npm run install
 ### Start Local Server
 ```bash
 npm run dev
-
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

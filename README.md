@@ -16,13 +16,52 @@ This is a decentralized real estate application (DApp) built with nextjs and Eth
   - Can withdraw accumulated ETH fees from the platform.
 
 ## Getting Started
+## Backend Installation
+Clone,the Bakcend Repository
+```bash
+git clone https://github.com/umashankar-tech/realestate-dapp-backend
+```
+### Then
+### Build
 
-First, run the development server:
+```shell
+$ forge build
+```
+
+### Test
+
+```shell
+$ forge test
+```
+### Anvil
+
+```shell
+$ anvil
+```
+
+### Deploy
+
+```shell
+$ forg
+
+First, run the frontend development server:
+Clone Repo
+```shell
+git clone https://github.com/umashankar-tech/realestate-dapp-frontend
+```
+
+### Important!!
+- make sure to ***update contract addresses and  abi *** path to update
+```
+src > constants
+
+```
+### Install Dependencies
 ```bash
 npm run install
 
 ```
-
+### Start Local Server
 ```bash
 npm run dev
 
